@@ -39,7 +39,7 @@ def ReadyImages(imageX):
 
 
 def PostOnInstagram(titleX):
-    InstaAPI = InstagramAPI("niklas74@gmx.ch", "9128734655")
+    InstaAPI = InstagramAPI("Benutzername", "Passwort")
     InstaAPI.login()
 
     photo_path = "/root/DankmemesScraperInsta/MemeImages/test.jpg"
