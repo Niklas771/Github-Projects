@@ -43,7 +43,7 @@ def PostOnInstagram(titleX):
     InstaAPI.login()
 
     photo_path = "/root/DankmemesScraperInsta/MemeImages/test.jpg"
-    caption = titleX + " #dankmemes #funny #memes #meme #dank #dankmeme #funny #reddit"
+    caption = titleX + " #dankmemes #memes #meme #dank #dankmeme #funny #reddit"
 
     InstaAPI.uploadPhoto(photo_path, caption=caption)
 
